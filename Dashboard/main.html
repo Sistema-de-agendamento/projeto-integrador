@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Import Ícones bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Dashboard Uniceplac</title>
+</head>
+<body>
+
+    <nav class="menu-lateral">
+
+        <div class="btn-expandir" id="btn-exp">
+            <!-- Import ícone list -->
+            <i class="bi bi-list"></i>
+        </div>
+
+        <ul>
+
+            <li class="item-menu ativo" id="selectHome">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-house-fill"></i></span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+
+
+            <li class="item-menu" id="selectPerfil">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-person-fill"></i></span>
+                    <span class="txt-link">Usuário</span>
+                </a>
+            </li>
+
+            <li class="item-menu" id="selectAgenda">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-calendar3"></i></span>
+                    <span class="txt-link">Agenda</span>
+                </a>
+            </li>
+
+            <li class="item-menu" id="selectGrafico">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-bar-chart-line-fill"></i></span>
+                    <span class="txt-link">Gráficos</span>
+                </a>
+            </li>
+        </ul>
+        
+    </nav>
+
+    <div id="home">
+        <div class="containerHome">
+            <h1>HOME</h1>
+        </div>
+    </div>
+
+    <div id="perfil">
+        <div class="containerPerfil">
+            <h1>PERFIL</h1>
+        </div>
+    </div>
+
+    <div id="agenda">
+        <div class="containerAgenda">
+            <h1>AGENDA</h1>
+        </div>
+    </div>
+
+    <div id="grafico">
+        <div class="containerGrafico">
+            <h1>GRÁFICOS</h1>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</body>
+</html>
