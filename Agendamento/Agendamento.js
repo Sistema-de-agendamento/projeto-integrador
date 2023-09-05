@@ -26,6 +26,8 @@
     document.getElementById('date').value = '';
     document.getElementById('time').value = '';
     document.getElementById('service').value = '';
+
+    window.location.href = "../Landing-page/landing-page.html"
   }
 // Adicionar um ouvinte de evento para o envio do formulário
   const form = document.querySelector('form');
