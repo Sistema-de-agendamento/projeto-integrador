@@ -1,5 +1,5 @@
 <script>
-  // Função para manipular o envio do formulário
+
   function handleSubmit(event) {
     event.preventDefault(); // Impede o envio padrão do formulário
 
