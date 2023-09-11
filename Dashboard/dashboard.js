@@ -102,3 +102,7 @@ btnGrafico.addEventListener('click', () => {
         document.getElementById("agenda").style.display = 'none'
     }
 })
+
+function logout(){
+    window.location.href = "../Landing-page/landing-page.html"
+}
